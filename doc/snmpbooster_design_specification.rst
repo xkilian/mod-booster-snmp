@@ -96,7 +96,7 @@ genDevConfig Plugins - Compatibility status with SnmpBooster
   * [Done] Geist RS-Mini environmental sensors
   * [Done] IBM IMM and IMM2 modules
   * [Done] IP Forward
-  * [InProgress] PaloAlto
+  * [Done] PaloAlto firewalls
   * [Done] JUNOS devices
   * [Done] MIB-II Interfaces
   * [Done] Spectracom SecureSync NTP server
