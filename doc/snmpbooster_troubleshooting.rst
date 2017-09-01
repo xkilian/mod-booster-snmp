@@ -52,6 +52,14 @@ Performance
 Make sure you have a low latency connection to your redis from the Poller. 
 Check that redis is running: ``netstat -a | grep redis``
 
+Make sure you are running SNMP checks or else the SnmpBooster poller modules will eat 10% of your CPU doing nothing.
+This was fixed on 2017-09-01, to increase the sleep time in the poller module when it has no checks to process. A very busy SNMP poller can use a low sleep time. Default sleep time has been increased to 1s, but can be lower on busy SNMP pollers.
+
+SNMP Timeouts
+=============
+
+Some timeouts will naturally occur within SnmpBooster multi-threaded code for various reasons, occurence around 0.001%. By default, your Shinken SnmpBooster poller command configuration should have the optione retry=1 to handle those cases.
+
 Faulty Template
 ===============
 
