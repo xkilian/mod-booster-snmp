@@ -65,6 +65,7 @@ Design specification summary
   * [Done] Support Snmp version 2c GetNext if GetBulk is not supported
   * [Done] Support Snmp version 1 GetNext
   * [xxxx] Set Snmp Timeout as a check runtime option, instead of a hardcoded value at 5 seconds
+  * [InProgress] Output contains which trigger is OK, WARNING or CRITICAL and more nicely formatted.
 
 - STATUS - DESIGN SPEC MAINTAINABILITY
 
@@ -90,20 +91,20 @@ genDevConfig Plugins - Compatibility status with SnmpBooster
   * [Done] Alcatel OS64xx
   * [Done] Alcatel OS68xx, OS69xx
   * [Done] Alcatel OXE
-  * [Done] Cisco 29x0 switches
+  * [Done] Cisco 29x0, 37K, 45K, 65K switches
   * [Done] Cisco PIX/ASA
-  * [Done] Cisco IOS routers
-  * [Done] Geist RS-Mini environmental sensors
+  * [Done] Cisco IOS, IOS-XE routers
+  * [Done] Geist RS-Mini and RS environmental sensors
   * [Done] IBM IMM and IMM2 modules
   * [Done] IP Forward
-  * [InProgress] PaloAlto
-  * [Done] JUNOS devices
+  * [Done] PaloAlto
+  * [Done] JUNOS devices ** Validation required**
   * [Done] MIB-II Interfaces
   * [Done] Spectracom SecureSync NTP server
   * [Done] TrippLite NET and NET2 modules
+  * [Done] APC PDU bars
   * [Done] NetSNMP unix hosts ** Validation required**
   * [Done] Packeteer devices ** Validation required**
-  * [Done] Sensatronics devices ** Validation required**
   * [Done] Foundry devices ** Validation required**
   * [Done] Packeteer devices ** Validation required**
   * [Done] Cisco CSS ** Validation required**
